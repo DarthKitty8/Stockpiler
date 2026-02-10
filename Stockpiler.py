@@ -770,7 +770,8 @@ def ItemScan(screen, garbage):
 					  ('Checkimages//RelicBase.png', 'Relic Base', 4),
 					  ('Checkimages//BunkerBase.png', 'Bunker Base', 5),
 					  ('Checkimages//Encampment.png', 'Encampment', 6),
-					  ('Checkimages//SafeHouse.png', 'Safe House', 7))
+					  ('Checkimages//SafeHouse.png', 'Safe House', 7),
+                      ('Checkimages//AircraftDepot.png', 'Aircraft Depot', 8))
 	# Check cropped stockpile image for each location type image
 	FoundStockpileType = None
 	FoundStockpileTypeName = None
