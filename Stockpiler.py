@@ -807,7 +807,7 @@ def ItemScan(screen, garbage):
 			pass
 	
 	if (FoundStockpileType != None):
-		if FoundStockpileTypeName == "Seaport" or FoundStockpileTypeName == "Storage Depot":
+		if FoundStockpileTypeName == "Seaport" or FoundStockpileTypeName == "Storage Depot" or FoundStockpileTypeName == "Aircraft Depot":
 			findtab = cv2.imread('CheckImages//Tab.png', cv2.IMREAD_GRAYSCALE)
 			if (menu.experimentalResizing.get() == 1): findtab = cv2.resize(findtab, (int(findtab.shape[1]*bestTextScale), int(findtab.shape[0]*bestTextScale)))
 			res = cv2.matchTemplate(stockpile, findtab, cv2.TM_CCOEFF_NORMED)
@@ -866,7 +866,7 @@ def ItemScan(screen, garbage):
 	# These stockpile types allow for crates (ie: Seaport)
 	CrateList = [0, 1]
 	# These stockpile types only allow individual items (ie: Bunker Base)
-	SingleList = [2, 3, 4, 5, 6, 7]
+	SingleList = [2, 3, 4, 5, 6, 7,8]
 
 	start = datetime.datetime.now()
 
@@ -1013,7 +1013,7 @@ def ItemScan(screen, garbage):
 			items.sortedcontents = list(sorted(stockpilecontents, key=lambda x: (x[3], x[4], -x[2])))
 			# Here's where we sort stockpilecontents by category, then number, so they spit out the same as screenshot
 			# Everything but vehicles and shippables first, then single vehicle, then crates of vehicles, then single shippables, then crates of shippables
-			if ThisStockpileName in ("Seaport","Storage Depot","Outpost","Town Base","Relic Base","Bunker Base","Encampment","Safe House"):
+			if ThisStockpileName in ("Seaport","Storage Depot","Outpost","Town Base","Relic Base","Bunker Base","Encampment","Safe House", "Aircraft Depot"):
 				ThisStockpileName = "Public"
 
 			if menu.CSVExport.get() == 1:
@@ -1053,7 +1053,7 @@ def ItemScan(screen, garbage):
 					
 					print("=============== [Storeman Bot Link: Sending to Server] ===============")
 					storemanBotPrefix = "[Storeman Bot Link]: "
-					if (response["success"]): print(storemanBotPrefix + "Scan of " + ThisStockpileName + " has been received by the server successfully. Your logisitics channel will be updated shortly if you have set one (you can use /spstatus on your server for instant updates")
+					if (response["success"]): print(storemanBotPrefix + "Scan of " + ThisStockpileName + " has been received by the server successfully. Your logistics channel will be updated shortly if you have set one (you can use /spstatus on your server for instant updates")
 					elif (response["error"] == "empty-stockpile-name"): print(storemanBotPrefix + "Stockpile name is invalid. Perhaps the stockpile name was not detected or empty.")
 					elif (response["error"] == "invalid-password"): print(storemanBotPrefix + "Invalid password, check that the Bot Password is correct.")
 					elif (response["error"] == "invalid-guild-id"): print(storemanBotPrefix + "The Guild ID entered was not found on the Storeman Bot server. Please check that it is correct.")
