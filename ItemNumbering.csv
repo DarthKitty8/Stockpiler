@@ -35,7 +35,7 @@
 33,X,X,Clancy-Raca M4,,Sniper Rifle,8.5mm,Warden,Small Arms,1,33,1,1,5,200,0,15,0,0
 34,X,X,8.5mm,,,8.5mm,Both,Small Arms,1,34,1,1,10,150,0,0,0,0
 35,X,X,20 Neville Anti-Tank Rifle,ATR,Anti-Tank Rifle,20mm,Warden,Heavy Arms,2,1,1,1,5,150,0,0,0,0
-36,X,X,20mm,,,20mm,Both,Heavy Arms,2,2,1,1,10,100,0,0,0,0
+36,X,X,14.5mm,,,20mm,Both,Heavy Arms,2,2,1,1,10,100,0,0,0,0
 37,X,X,Venom c.II 35,,Anti-Tank RPG,A.T.R.P.G. Shell,Colonial,Heavy Arms,2,3,1,1,5,100,0,25,0,0
 38,X,X,Bane 45,Bane,Anti-Tank RPG,A.T.R.P.G. Shell,Colonial,Heavy Arms,2,4,1,1,5,150,0,45,0,0
 39,X,X,A.T.R.P.G. Shell,,,A.T.R.P.G. Shell,Both,Heavy Arms,2,5,1,1,15,-,-,-,-,-
@@ -56,7 +56,7 @@
 54,X,X,Daucus isg.III,,Infantry Support Gun,30mm,Colonial,Heavy Arms,2,19,1,1,5,150,0,0,0,0
 55,X,X,120mm,,,120mm,Both,Heavy Ammunition,3,2,1,1,5,60,15,0,0,0
 56,X,X,300mm,,,300mm,Both,Heavy Ammunition,3,3,1,1,5,135,0,0,30,0
-57,X,X,"250mm ""Purity"" Shell",,,250mm,Both,Heavy Ammunition,3,14,1,1,5,120,0,0,25,0
+57,X,X,250mm,,,250mm,Both,Heavy Ammunition,3,4,1,1,5,120,0,0,25,0
 58,X,X,Anti-Tank Sticky Bomb,,,,Both,Heavy Arms,2,20,1,1,10,50,50,0,0,0
 59,X,X,Cutler Launcher 4,,RPG,R.P.G. Shell,Warden,Heavy Arms,2,21,1,1,5,100,0,25,0,0
 60,X,X,R.P.G. Shell,,,R.P.G. Shell,Warden,Heavy Arms,2,22,1,1,15,60,75,0,0,0
@@ -276,7 +276,7 @@
 277,,,Dunne Dousing Engine 3r,,,,Warden,Vehicle,8,93,1,1,,,,,,
 278,,,"R-12b ""Salva""",,,,Colonial,Vehicle,8,94,1,1,,,,,,
 279,,,Catena rt.IV Auto-Rifle,,,,Colonial,Small Arms,1,39,1,1,,,,,,
-,,,,,,,,,,,,,,,,,,
+280,,,King Jester - Mk.I,,,,Warden,Vehicle,8,95,1,1,,,,,,
 281,,,"T13 ""Deioneus"" Rocket Battery",,,,Warden,Vehicle,8,96,1,1,,,,,,
 282,,,No.2B Hawthorne,,,,Warden,Small Arms,1,39,1,1,,,,,,
 283,,,BMS - Fabricator,,,,Both,Vehicle,8,97,1,1,,,,,,
@@ -305,11 +305,11 @@
 306,,,Naval Turbine Components,,,,Both,Shippables,9,22,1,0,,,,,,
 307,,,Model-7 Evie,,,,Both,Heavy Ammunition,3,13,1,1,,,,,,
 308,,,Wind Sock,,,,Both,Utility,4,27,1,1,,,,,,
-309,,,"90T-v ""Nemesis""",,,,Colonial,Vehicle,8,111,1,1,,,,,,
+309,,,90T-v �Nemesis�,,,,Colonial,Vehicle,8,111,1,1,,,,,,
 310,,,Gallagher Brigand Mk. I ,,,,Warden,Vehicle,8,112,1,1,,,,,,
 311,,,Incendiary Mortar Shell,,,,Both,Heavy Arms,2,33,1,1,,,,,,
-312,,,"""Dawn"" Ve.II",,,,Colonial,Heavy Arms,2,34,1,1,,,,,,
-313,,,"""Quickhatch"" Rt.I",,,,Colonial,Heavy Arms,2,35,1,1,,,,,,
+312,,,�Dawn� Ve.II,,,,Colonial,Heavy Arms,2,34,1,1,,,,,,
+313,,,�Quickhatch� Rt.I,,,,Colonial,Heavy Arms,2,35,1,1,,,,,,
 314,,,Booker Greyhound Model 910,,,,Warden,Heavy Arms,2,36,1,1,,,,,,
 315,,,228 Satterley Heavy Storm Rifle,,,,Warden,Heavy Arms,2,37,1,1,,,,,,
 316,,,B2 Varsi Anti-Tank Grenade,,,,Warden,Heavy Arms,2,38,1,1,,,,,,
@@ -317,18 +317,18 @@
 318,,,Falias Raiding Club,,,,Warden,Utility,4,28,1,1,,,,,,
 319,,,KRF1-750 Dragonfly,,,,Colonial,Small Arms,1,40,1,1,,,,,,
 320,,,No.4 The Pillory Scattergun,,,,Warden,Small Arms,1,41,1,1,,,,,,
-321,,,Crow's Foot Mine,,,,Both,Utility,4,29,1,1,,,,,,
-322,,,"30-250 ""Tisiphone"" Field Cannon",,,,Colonial,Vehicle,8,113,1,1,,,,,,
+321,,,Crow�s Foot Mine,,,,Both,Utility,4,29,1,1,,,,,,
+322,,,30-250 �Tisiphone� Field Cannon,,,,Colonial,Vehicle,8,113,1,1,,,,,,
 323,,,Carnyx Anti-Tank Rocket Launcher,,,,Both,Heavy Arms,2,39,1,1,,,,,,
 324,,,Legion Vexillum,,,,Colonial,Utility,4,30,1,1,,,,,,
-325,,,War Ensign,,,,Warden,Utility,4,30,1,1,,,,,,
-326,,,O'Brien v.200 Squire,,,,Warden,Vehicle,8,114,1,0,,,,,,
-327,,,"35-250 ""Alekto"" Heavy Cannon",,,,Colonial,Vehicle,8,115,1,0,,,,,,
-328,,,King Jester Mk. I-1,,,,Warden,Vehicle,8,116,1,0,,,,,,
-329,,,"250mm ""Fury"" Shell",,,,Both,Heavy Ammunition,3,15,1,0,,,,,,
-330,,,Shatter Missile,,,,Both,Heavy Ammunition,3,16,1,1,,,,,,
-331,,,Remex Garb,,,,Colonial,Uniforms,7,21,1,1,,,,,,
-332,,,Gentleman's Peacoat,,,,Warden,Uniforms,7,22,1,1,,,,,,
+325,,,War Ensign,,,,Warden,Utility,4,31,1,1,,,,,,
+326,,,O'Brien V.200 Squire,,,,Warden,Vehicle,8,114,1,0,,,,,,
+327,,,40-250 �Alekto� Heavy Cannon,,,,Colonial,Vehicle,8,115,1,0,,,,,,
+328,,,King Jester - Mk. I-1,,,,Warden,Vehicle,8,116,1,0,,,,,,
+329,,,250mm �Fury� Shell,,,,Colonial,Heavy Ammunition,3,14,1,1,,,,,,
+330,,,Shatter Missile,,,,Warden,Heavy Ammunition,3,15,1,1,,,,,,
+331,,,Remex Garb,,,,Colonial,Uniforms,7,20,1,1,,,,,,
+332,,,Gentleman's Peacoat,,,,Warden,Uniforms,7,21,1,1,,,,,,
 333,,,Construction Parts,,,,Both,Shippables,9,23,1,0,,,,,,
 334,,,Structure Parts,,,,Both,Shippables,9,24,1,0,,,,,,
 335,,,Storm Cannon Parts,,,,Both,Shippables,9,25,1,0,,,,,,
@@ -336,3 +336,39 @@
 337,,,Intelligence Center Parts,,,,Both,Shippables,9,27,1,0,,,,,,
 338,,,Underground Fortress Parts,,,,Both,Shippables,9,28,1,0,,,,,,
 339,,,Construction Equipment,,,,Both,Shippables,9,29,1,1,,,,,,
+340,,,Aircraft Radar Parts,,,,Both,Shippables,9,30,1,0,,,,,,
+341,,,"DAE 5b ""Zeal""",,,,Colonial,Shippables,9,31,1,1,,,,,,
+342,,,Leary AA-70 Bolas,,,,Warden,Shippables,9,32,1,1,,,,,,
+343,,,Luminary Mk. IV Herald,,,,Warden,Vehicle,8,117,1,1,,,,,,
+344,,,Luminary Mk. II Harbinger,,,,Warden,Vehicle,8,118,1,1,,,,,,
+345,,,Tulka I1.9 White Raven,,,,Warden,Vehicle,8,119,1,1,,,,,,
+346,,,M925 Austringer Man-O-War,,,,Warden,Vehicle,8,120,1,1,,,,,,
+347,,,Rinnspeir Mk. I Zealot,,,,Warden,Vehicle,8,121,1,1,,,,,,
+348,,,Tulka P4 Welkinrive,,,,Warden,Vehicle,8,122,1,1,,,,,,
+349,,,"A51 Venti ""Daedalus",,,,Colonial,Vehicle,8,123,1,1,,,,,,
+350,,,"Toxot-902 ""Blind Silver""",,,,Colonial,Vehicle,8,124,1,1,,,,,,
+351,,,"Mergo-4 ""Myrmidon""",,,,Colonial,Vehicle,8,125,1,1,,,,,,
+352,,,V-5b Pegasus,,,,Colonial,Vehicle,8,126,1,1,,,,,,
+353,,,V-1 Tzykalia,,,,Colonial,Vehicle,8,127,1,1,,,,,,
+354,,,Mercy,,,,Warden,Vehicle,8,128,1,0,,,,,,
+355,,,Poseidon,,,,Colonial,Vehicle,8,129,1,0,,,,,,
+356,,,Bellweather by VAC,,,,Both,Vehicle,8,130,1,1,,,,,,
+357,,,Das Krokodil by VAC,,,,Both,Vehicle,8,131,1,1,,,,,,
+358,,,68A-4 Ronan Fathomer,,,,Warden,Vehicle,8,132,1,1,,,,,,
+359,,,"K-81e ""Sombre""",,,,Colonial,Vehicle,8,133,1,1,,,,,,
+360,,,Rinnspeir Ornitier-Class Gunship,,,,Warden,Vehicle,8,134,1,1,,,,,,
+361,,,Strider,,,,Colonial,Vehicle,8,135,1,1,,,,,,
+362,,,81f-f Ronan Blackguard,,,,Warden,Vehicle,8,136,1,1,,,,,,
+363,,,"Type B - ""Lucian""",,,,Colonial,Vehicle,8,137,1,1,,,,,,
+364,,,Liaison Transmitter,,,,Both,Utility,4,32,1,1,,,,,,
+365,,,Lodesman's Lorica,,,,Colonial,Uniforms,7,22,1,1,,,,,,
+366,,,Aviator's Raiment,,,,Warden,Uniforms,7,23,1,1,,,,,,
+367,,,Paratrooper's Ruck,,,,Both,Utility,4,33,1,1,,,,,,
+368,,,Auster's Harness,,,,Colonial,Uniforms,7,24,1,1,,,,,,
+369,,,Cloudrunner's Vesture,,,,Warden,Uniforms,7,25,1,1,,,,,,
+370,,,Mark II Raidbreaker,,,,Both,Heavy Ammunition,3,16,1,1,,,,,,
+371,,,912 Shrike Rounds,,,,Colonial,Heavy Ammunition,3,17,1,1,,,,,,
+372,,,950-70b Anti-Aircraft Shell,,,,Both,Heavy Ammunition,3,18,1,1,,,,,,
+373,,,Quillback Torpedo,,,,Warden,Heavy Ammunition,3,19,1,1,,,,,,
+374,,,20mm,,,,Both,Heavy Ammunition,3,20,1,1,,,,,,
+375,,,E681-B Hullbreaker Mine,,,,Both,Heavy Ammunition,3,21,1,1,,,,,,
