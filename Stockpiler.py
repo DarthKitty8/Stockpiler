@@ -914,8 +914,9 @@ def ItemScan(screen, garbage):
 					findnum = cv2.resize(findnum, (int(findnum.shape[1] * bestIconScale), int(findnum.shape[0] * bestIconScale)))
 				numbers[number[1]] = findnum
 			
-			threshold = .98 if (menu.experimentalResizing.get() == 1 and foxhole_height != 1080) else .99   
+			#threshold = .98 if (menu.experimentalResizing.get() == 1 and foxhole_height != 1080) else .99999
 			for image in StockpileImages:
+				threshold = .98 if (menu.experimentalResizing.get() == 1 and foxhole_height != 1080) else .99
 				checked += 1
 				if str(image[4]) == '1':
 					if os.path.exists(image[1]):
